@@ -1,0 +1,4 @@
+import type { Metadata } from 'next';
+import './globals.css';
+export const metadata:Metadata={title:'Prajesh Makootan — Data Analyst',description:'Data Analyst building clear dashboards, practical automations, and decision-ready insight with SQL, Python, Power BI, and Excel.',openGraph:{title:'Prajesh Makootan — Data Analyst',description:'Turning raw data into clear, actionable insight.',type:'website',images:[{url:'/og.png',width:1792,height:917,alt:'Prajesh Makootan — Data Analyst'}]},twitter:{card:'summary_large_image',title:'Prajesh Makootan — Data Analyst',description:'Turning raw data into clear, actionable insight.',images:['/og.png']}};
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en" suppressHydrationWarning><body>{children}</body></html>}
