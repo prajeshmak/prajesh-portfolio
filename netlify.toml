@@ -1,6 +1,6 @@
 [build]
-  command = "pnpm build"
-  publish = "dist/client"
+  command = "pnpm run build:netlify"
+  publish = "netlify-dist"
 
 [build.environment]
   NODE_VERSION = "22"
